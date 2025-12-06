@@ -1,0 +1,38 @@
+# Build directories
+build/
+cmake-build-*/
+*.o
+*.a
+*.so
+*.dylib
+
+# Executables
+pinn_semiconductor
+test_network
+test_pinn
+test_fd_solver
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Data files (keep structure, ignore large files)
+data/results/*
+!data/results/.gitkeep
+data/plots/*
+!data/plots/.gitkeep
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+Makefile
+cmake_install.cmake
+
