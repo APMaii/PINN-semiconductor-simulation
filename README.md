@@ -16,7 +16,54 @@ This repository contains a C++17 implementation of a **Physics-Informed Neural N
 
 ## 📂 Folder Structure
 
-
+pinn-semiconductor-simulation/
+│
+├── CMakeLists.txt
+├── README.md
+├── LICENSE
+│
+├── data/
+│   ├── doping_profiles/
+│   ├── results/
+│   └── plots/
+│
+├── docs/
+│   ├── drift_diffusion_equations.pdf
+│   ├── device_geometry.png
+│   └── pinn_architecture.png
+│
+├── include/
+│   ├── activation.hpp
+│   ├── loss.hpp
+│   ├── network.hpp
+│   ├── optimizers.hpp
+│   ├── pinn.hpp
+│   ├── domain.hpp
+│   ├── utils.hpp
+│   ├── fd_solver.hpp
+│   └── semiconductor_params.hpp
+│
+├── src/
+│   ├── activation.cpp
+│   ├── loss.cpp
+│   ├── network.cpp
+│   ├── optimizers.cpp
+│   ├── pinn.cpp
+│   ├── domain.cpp
+│   ├── utils.cpp
+│   ├── fd_solver.cpp
+│   └── main.cpp
+│
+├── scripts/
+│   ├── plot_results.py
+│   ├── convert_results_to_csv.py
+│   └── generate_doping_profile.py
+│
+└── tests/
+    ├── test_network.cpp
+    ├── test_pinn.cpp
+    └── test_fd_solver.cpp
+    
 ---
 
 ## 📄 **LICENSE** (MIT License)
