@@ -3,7 +3,6 @@
 A Physics-Informed Neural Network implementation for solving semiconductor drift-diffusion equations. This project grew out of frustration with traditional TCAD solvers being slow and difficult to integrate into optimization workflows. If you've ever wanted to simulate a PN junction but didn't want to wait minutes for each run, this might be what you're looking for.
 
 ## What This Does
-
 Traditional finite element and finite difference solvers for semiconductor devices work great, but they're computationally expensive. Physics-Informed Neural Networks (PINNs) offer a different approach: train a neural network that inherently satisfies the underlying physics equations. Once trained, you get near-instant predictions that respect the drift-diffusion equations.
 
 This implementation solves the coupled system of:
@@ -48,6 +47,7 @@ cd build
 ./test_pinn
 ./test_fd_solver
 ```
+
 
 Or run all tests through CMake:
 
@@ -137,6 +137,7 @@ pinn-semiconductor-simulation/
 
 Edit `main.cpp` to modify the domain:
 
+
 ```cpp
 double x_min = 0.0;
 double x_max = 2.0e-6;  // Change device length
@@ -187,6 +188,7 @@ More interior points and longer training generally improve accuracy at the cost 
 ## Understanding the Physics
 
 The drift-diffusion model consists of three coupled equations:
+
 
 1. **Poisson's equation**: Relates the electric field to charge density
    ```
@@ -243,7 +245,6 @@ Found a bug? Have an idea for improvement? Pull requests are welcome. For major 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## Acknowledgments
-
 Inspired by the work on Physics-Informed Neural Networks by Raissi et al. and adapted for semiconductor device simulation. The finite difference solver serves as a sanity check to validate PINN results.
 
 ---
