@@ -2,7 +2,6 @@
 """
 Convert simulation results to CSV format
 """
-
 import sys
 import os
 import numpy as np
