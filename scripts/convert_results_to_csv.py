@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 """
 Convert simulation results to CSV format
 """
