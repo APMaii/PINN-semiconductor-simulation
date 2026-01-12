@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 """
 Plot results from PINN semiconductor simulation
 """
