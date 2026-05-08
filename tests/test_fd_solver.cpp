@@ -1,6 +1,6 @@
 #include <iostream>
 #include <cassert>
-#include <functional> 
+#include <functional>  
 #include <cmath>
 #include "../include/fd_solver.hpp"
 
