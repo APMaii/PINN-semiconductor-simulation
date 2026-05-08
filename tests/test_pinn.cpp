@@ -2,7 +2,7 @@
 #include <cassert>
 #include <functional>
 #include "../include/pinn.hpp"
-#include "../include/domain.hpp" 
+#include "../include/domain.hpp"  
 #include "../include/optimizers.hpp"
 
 double test_doping_profile(double x, double y) {
