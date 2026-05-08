@@ -1,7 +1,7 @@
 #include <iostream>
 #include <cassert>
 #include <vector> 
-#include <cmath>
+#include <cmath> 
 #include "../include/network.hpp"
 #include "../include/activation.hpp"
 
