@@ -2,7 +2,7 @@
 """
 Generate doping profiles for semiconductor device simulation
 """
-import numpy as np
+import numpy as np 
 import matplotlib.pyplot as plt
 import sys
 import os
