@@ -1,6 +1,6 @@
 #include "loss.hpp"
 #include <cmath>
-#include <algorithm>
+#include <algorithm> 
 
 namespace loss {
 
