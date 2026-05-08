@@ -1,7 +1,7 @@
 """
 Convert simulation results to CSV format
 """
-import sys
+import sys 
 import os
 import numpy as np
 import pandas as pd
