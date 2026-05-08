@@ -1,7 +1,7 @@
 #ifndef SEMICONDUCTOR_PARAMS_HPP
 #define SEMICONDUCTOR_PARAMS_HPP
 
-#include <cmath>
+#include <cmath> 
 
 namespace semiconductor {
 
