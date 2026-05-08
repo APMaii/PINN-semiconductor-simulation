@@ -1,7 +1,7 @@
 #ifndef ACTIVATION_HPP
 #define ACTIVATION_HPP
 
-#include <cmath>
+#include <cmath> 
 #include <functional>
 #include <vector>
 
